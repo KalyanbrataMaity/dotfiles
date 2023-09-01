@@ -22,6 +22,9 @@ create_symlinks() {
 
 create_symlinks
 
+echo "Initializing conda for zsh."
+conda init zsh
+
 echo "Initializing fonts."
 FONT_DIR="$HOME/.fonts"
 if [ -d "$FONT_DIR" ]; then
